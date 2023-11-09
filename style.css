@@ -1,0 +1,29 @@
+.fixed-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+}
+
+.rounded-lg {
+    padding: 2rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+body {
+    background-color: #f3f4f6;
+}
+.dark .bg-white {
+    background-color: #181a1b;
+}
+
+.dark .primary-text {
+    color: #d7d3ce;
+}
+
+.dark .secondary-text {
+    color: #cdc8c2;
+}

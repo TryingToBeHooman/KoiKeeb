@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To KoiKeeb</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <style>
+        body {
+            font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white transition duration-300">
+    <div class="min-h-screen flex flex-col items-center justify-center relative">
+        <div class="bg-white dark:bg-gray-800 rounded-lg p-8 shadow-lg max-w-4xl w-full text-center">
+            <label for="dark-mode-toggle" class="cursor-pointer fixed-toggle">
+                <i id="mode-icon" class="far fa-moon text-2xl text-yellow-300 dark:text-yellow-500"></i>
+            </label>
+            <h1 class="primary-text text-4xl font-bold mb-4">Welcome To Koikeeb</h1>
+            <p class="secondary-text text-lg mb-4">Craft a keyboard that suits your style and enhances your typing experience.</p>
+        </div>
+        <div class="mt-8 max-w-4xl mx-auto p-8 bg-white dark:bg-gray-800 text-gray-800 dark:text-white text-center rounded-lg">
+            <h2 class="primary-text text-2xl font-semibold mb-4">Why Choose Us?</h2>
+            <p class="secondary-text text-lg mb-4">We offer the best in custom keyboard building:</p>
+            <ul class="secondary-text text-left list-disc list-inside mb-4">
+                <li>Competitive Pricing</li>
+                <li>Pick Your Parts</li>
+                <li>Everything To Your Liking</li>
+                <li>Koi</li>
+            </ul>
+        </div>
+        <div class="mt-8 max-w-4xl mx-auto p-8 bg-white dark:bg-gray-800 text-gray-800 dark:text-white text-center rounded-lg">
+            <h2 class="primary-text text-2xl font-semibold mb-4">Ready To Order Or Don't Know Where To Start?</h2>
+            <a href="#contact" class="secondary-text bg-blue-500 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-600 transition duration-300 ease-in-out">Contact Us</a>
+        </div>
+    </div>
+
+    <input type="checkbox" id="dark-mode-toggle" class="hidden" />
+    <script src="darkmode.js"></script>
+</body>
+</html>
